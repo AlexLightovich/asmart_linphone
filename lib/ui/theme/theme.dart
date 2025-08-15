@@ -31,7 +31,7 @@ final ThemeData lightTheme = ThemeData(
   ),
   textSelectionTheme: const TextSelectionThemeData(
     cursorColor: Color(0xFF65AB0E),
-    selectionColor: Color(0x3365AB0E), // 20% прозрачности
+    selectionColor: Color(0x3365AB0E),
     selectionHandleColor: Color(0xFF65AB0E),
   ),
 );

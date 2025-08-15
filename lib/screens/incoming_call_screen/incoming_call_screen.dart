@@ -20,18 +20,8 @@ class IncomingCallScreen extends StatelessWidget {
       create: (_) => IncomingCallScreenBloc(),
       child: _IncomingCallScreen(number: number),
     );
-    // return BlocProvider(
-    //   create: (_) => MainScreenBloc(),
-    //   child: _IncomingCallScreen(number: number,),
-    // );
   }
 
-  // static Widget wrappedRoute(BuildContext context) {
-  //   return BlocProvider.value(
-  //     value: context.read<MainScreenBloc>(),
-  //     child: const IncomingCallScreen(number: ''), // параметр пробросится позже
-  //   );
-  // }
 }
 
 class _IncomingCallScreen extends StatelessWidget {
