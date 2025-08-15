@@ -166,7 +166,9 @@ class _IncomingCallScreen extends StatelessWidget {
                                                 ),
                                                 actions: [
                                                   TextButton(
-                                                    onPressed: () {},
+                                                    onPressed: () {
+                                                      Navigator.of(context).pop();
+                                                    },
                                                     child: Text("Отмена"),
                                                   ),
                                                   TextButton(
